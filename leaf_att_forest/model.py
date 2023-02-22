@@ -6,7 +6,6 @@ from scipy.special import softmax as _softmax
 import cvxpy as cp
 from .leaf_data import _prepare_leaf_data_fast
 from .utils import _get_node_depths, _convert_labels_to_probas
-from .solver import _try_solve_problem
 from .base import BaseAttentionForest
 from .leaf_data import _prepare_separate_leaf_data_fast
 
